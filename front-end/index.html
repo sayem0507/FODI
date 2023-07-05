@@ -1203,8 +1203,8 @@
                   window.api.url + "?file=" + encodeURI(path)
                 );
                 const btn = document.querySelector(".btn.quote");
-                btn.innerHTML = "已复制";
-                setTimeout(() => (btn.innerHTML = "引用"), 250);
+                btn.innerHTML = "copied";
+                setTimeout(() => (btn.innerHTML = "quote"), 250);
               });
             document
               .querySelector(".btn.share")
@@ -1603,9 +1603,9 @@
           <div class="preview">
             <div class="info">
               <div class="file-name"></div>
-              <div class="btn download">下载</div>
-              <div class="btn quote">引用</div>
-              <div class="btn share">分享</div>
+              <div class="btn download">download</div>
+              <div class="btn quote">quote</div>
+              <div class="btn share">share</div>
             </div>
             <div class="content"></div>
           </div>
