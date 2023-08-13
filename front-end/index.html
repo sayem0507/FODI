@@ -910,7 +910,7 @@
         const buttonParent = button.parentElement;
         const buttonClone = button.cloneNode(true);
         buttonParent.replaceChild(buttonClone, button);
-        input.placeholder = "请输入密码";
+        input.placeholder = "please enter password";
         buttonClone.addEventListener("click", (event) => {
           const passwd = input.value;
           if (!input.value) {
@@ -1612,7 +1612,7 @@
           <div class="password-wrapper">
             <div class="password">
               <input type="password" />
-              <button>提交</button>
+              <button>login</button>
             </div>
           </div>
         </div>
